@@ -13,11 +13,11 @@ public class Controller {
 
     public Controller() {
         user = new User();
-        new LoginUI(this);
+        new Ui(this);
     }
 
     public void showTaskUI() {
-        new TaskUI(this);
+        new task(this);
     }
 
     public void addTask(Product p) {
