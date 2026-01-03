@@ -2,7 +2,7 @@ package com.l3.gl.view;
 
 import javax.swing.*;
 import java.awt.*;
-import com.l3.gl.controller;
+import com.l3.gl.Controller.Controller;
 
 public class Ui {
     private JFrame frame;
